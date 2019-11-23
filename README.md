@@ -2,6 +2,7 @@ MineCasino - Kleines Spaßprojekt
 
 
 Befehle:
+
 /spin - Öffne die Slotmachine
 
 
