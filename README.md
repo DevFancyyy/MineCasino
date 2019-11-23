@@ -2,9 +2,8 @@ MineCasino - Kleines Spaßprojekt
 
 
 Befehle:
-
-/spin - Öffne die Slotmachine
-
+- /spin - Öffne die Slotmachine
+- /dice (Anzahl) - Würfeln, sofern keine Anzahl angegeben ist mit einem Würfel
 
 Funktionen:
 
@@ -14,4 +13,5 @@ Funktionen:
 - Verschiedene Multiplikatoren der verschiedenen Items
 - "Auszahlung" bei >= 2x dem gleichen Item, wenn es ein Gewinneritem ist
 - Einsatz sind Erfahrungslevel
+- Mit (mehreren) Würfeln würfeln, wird Spielern im Umkreis von 7 Blöcken angezeigt
 
