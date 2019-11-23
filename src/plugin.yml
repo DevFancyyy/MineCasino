@@ -3,4 +3,5 @@ author: FancyPlay
 version: 0.0.1
 main: de.fancy.minecasino.Main
 commands:
+  dice:
   spin:

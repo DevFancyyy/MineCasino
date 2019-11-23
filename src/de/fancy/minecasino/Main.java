@@ -1,5 +1,6 @@
 package de.fancy.minecasino;
 
+import de.fancy.minecasino.commands.CMD_Dice;
 import de.fancy.minecasino.commands.CMD_Spin;
 import de.fancy.minecasino.listener.PlayerInventoryInteractListener;
 import de.fancy.minecasino.utils.CasinoManager;
@@ -20,6 +21,7 @@ public class Main extends JavaPlugin {
 
         this.getServer().getPluginManager().registerEvents(new PlayerInventoryInteractListener(), this);
 
+        getCommand("dice").setExecutor(new CMD_Dice());
         getCommand("spin").setExecutor(new CMD_Spin());
     }
 
